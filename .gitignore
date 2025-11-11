@@ -32,6 +32,7 @@ qrc_*.cpp
 *.creator.user
 *.creator.user.*
 *.user.*
+*.user
 *.autosave
 CMakeLists.txt.user
 
