@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/disable.png</file>
+        <file>resources/enter.png</file>
+        <file>resources/normal.png</file>
+        <file>resources/press.png</file>
+    </qresource>
+</RCC>
