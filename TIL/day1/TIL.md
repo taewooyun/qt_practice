@@ -94,8 +94,6 @@ package/                  # 프로젝트 루트 디렉터리
     └─ Source Files/      # 소스 파일 (.cpp) — 실제 구현 코드
         ├─ main.cpp       # 프로그램 진입점 (QApplication, 메인 윈도우 실행)
         └─ widget.cpp     # Widget 클래스의 구현부 (이벤트 처리, UI 로직 등)
-
-
 ```
 
 #### CMakeLists.txt
@@ -188,7 +186,6 @@ install(TARGETS daily_project
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(daily_project)
 endif()
-
 ```
 
 ---
@@ -304,8 +301,6 @@ void Widget::slot_clicked_2()
 
     ui->label_1->setText("SELECTED SKILLS"); // label 초기화
 }
-
-
 ```
 
 ---

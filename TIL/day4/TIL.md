@@ -114,9 +114,7 @@
 
 #### QPainter를 이용한 Chromakey 구현
 
-- 
-
-## 2. Timer
+- ## 2. Timer
 
 - SIGNAL
   
@@ -131,26 +129,6 @@
 - QDateTime 사용법
 
 - 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 

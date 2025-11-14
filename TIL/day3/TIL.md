@@ -57,21 +57,20 @@
 
 - 64 반올림
 
-
-
-| 클래스                            | 타입                                                                   |
-| ------------------------------ | -------------------------------------------------------------------- |
-| QByteArray                     | 바이트 단위의 배열을 지원하기 위한 클래스                                              |
-| QByteArrayMatcher              | QByteArray로 구현된 바이트 단위의 배열의 index를 이용해 매칭되는 문자열 이 있는지 찾기 위해 사용되는 클래스 |
-| QChar                          | 16bit 유니코드 Character를 지원하기 위한 클래스                                    |
-| QLatin1Char<br/>QLatin1String | US-ASCII/Latin-1 인코딩 문자열을 지원하기 위해 제공되는 클래스                           |
-| QLocale                        | 숫자 표시 방식 혹은 문자 표시 방식을 다양한 언어의 표현 방식에 맞도록 변환하는 클래스입니다.                |
-| QString                        | 유니코드 문자열 캐릭터를 지원 하는 클래스                                              |
-| QStringList                    | 문자열 리스트의 집합 클래스                                                      |
-| QStringMatcher                 | 문자열 상에 매칭되는 문자열을 찾기 위해 제공되는 클래스                                      |
-| QStringRef                     | size( ), position( ), toString( )과 같은 서브 스트링 래핑 클래스                  |
-| QTextStream                    | Text기반 WRITE/READ 를 위한 STREAM 기능 제공                                  |
-| QDataStream                    | Binary 기반 WRITE/READ 를 위한 STREAM 기능 제공                               |
+| 클래스                | 타입                                                                   |
+| ------------------ | -------------------------------------------------------------------- |
+| QByteArray         | 바이트 단위의 배열을 지원하기 위한 클래스                                              |
+| QByteArrayMatcher  | QByteArray로 구현된 바이트 단위의 배열의 index를 이용해 매칭되는 문자열 이 있는지 찾기 위해 사용되는 클래스 |
+| QChar              | 16bit 유니코드 Character를 지원하기 위한 클래스                                    |
+| QLatin1Char        |                                                                      |
+| <br/>QLatin1String | US-ASCII/Latin-1 인코딩 문자열을 지원하기 위해 제공되는 클래스                           |
+| QLocale            | 숫자 표시 방식 혹은 문자 표시 방식을 다양한 언어의 표현 방식에 맞도록 변환하는 클래스입니다.                |
+| QString            | 유니코드 문자열 캐릭터를 지원 하는 클래스                                              |
+| QStringList        | 문자열 리스트의 집합 클래스                                                      |
+| QStringMatcher     | 문자열 상에 매칭되는 문자열을 찾기 위해 제공되는 클래스                                      |
+| QStringRef         | size( ), position( ), toString( )과 같은 서브 스트링 래핑 클래스                  |
+| QTextStream        | Text기반 WRITE/READ 를 위한 STREAM 기능 제공                                  |
+| QDataStream        | Binary 기반 WRITE/READ 를 위한 STREAM 기능 제공                               |
 
 - 문자열 데이터타입
   
@@ -211,10 +210,6 @@
 | QIODevice::Text       | 0x0010        | TEXT모드로 읽을 때 마지막에 ‘\n’을 사용. MS윈도우인에서는 ‘\r\n’을 마지막에 사용. |
 | QIODevice::Unbuffered | 0x0020        | 버퍼를 사용하지 않고 디바이스를 바로 사용                                |
 
-
-
-
-
 파일 입출력 실습
 
 ## 7. 프로퍼티
@@ -294,10 +289,6 @@
   - QStandardItemModel
   
   - 
-
-
-
-
 
 ---
 
